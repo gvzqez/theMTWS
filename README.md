@@ -2,7 +2,7 @@
 First project of Udacity's Full Stack Web Developer Nanodegree.
 
 It consist on a python generated html webpage that allows visitors to review movies' trailers and ratings for different movie sections.
-The movie data is provided through **themoviedb.org** API using the python library **pytmdb3**.
+The movie data is provided through **themoviedb.org** API using the python library **pytmdb3**.<br />
 (See documentation: https://github.com/wagnerrp/pytmdb3)
 
 ### Note:
