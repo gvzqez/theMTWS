@@ -5,8 +5,8 @@ It consist on a python generated html webpage that allows visitors to review mov
 The movie data is provided through **themoviedb.org** API using the python library **pytmdb3**.<br />
 (See documentation: https://github.com/wagnerrp/pytmdb3)
 
-### Note:
-API requests are limited to 30 within 10 seconds, so the first time the programme is executed, it will take a few more time before the page is displayed. Then, the data is stored in the local cache for one hour.
+#### Note:
+API requests are limited to 30 within 10 seconds, so the first time the programme is executed, it will take a few more time before the page is displayed. Then, the data is stored in the local cache for one hour. <br />
 
 
 ## How to open the Movie Trailer Website
