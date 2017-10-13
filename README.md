@@ -16,7 +16,7 @@ The only requirement is to have **Python 2.7** installed. If you don't have pyth
 3. Clone the project repository ```$ git clone https://github.com/gvzqez/theMTWS```
 4. Move to the project root directory ```$ cd theMTWS```
 5. Set the "locale" environtment variables to **('en_US', 'UTF-8')**:
-&nbsp > ```$ export LC_ALL=en_US.UTF-8``` <br />
-> ```$ export LANG=en_US.UTF-8```
+*  ```$ export LC_ALL=en_US.UTF-8```
+*  ```$ export LANG=en_US.UTF-8```
 6. Execute the main python script ```$ python main.py```
 
