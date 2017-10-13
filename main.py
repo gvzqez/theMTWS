@@ -4,7 +4,6 @@ import os
 import re
 
 
-
 # -------------------------------------------------- HTML -------------------------------------------------- #
 
 # Styles and scripting for the webpage
@@ -229,7 +228,7 @@ main_page_content = '''
       <hr>
       <div class="row media-head">
         <h3>Classics</h3>
-      </div>  
+      </div>
       <div class="text-center media-list">
         <div class="icon arrow-icon">keyboard_arrow_left</div>
         <div class="icon arrow-icon right">keyboard_arrow_right</div>
@@ -257,7 +256,6 @@ media_tile_content = '''
 '''
 
 
-
 # ----------------------------------------------- PROCEDURES ----------------------------------------------- #
 
 # Create HTML content for each movie section
@@ -267,9 +265,12 @@ def create_media_tiles_content(media):
         # Avoid error in case youtube trailer is not available
         if m.trailer_youtube_url is not None:
             # Extract the youtube ID from the url
-            youtube_id_match = re.search(r'(?<=v=)[^&#]+', m.trailer_youtube_url)
-            youtube_id_match = youtube_id_match or re.search(r'(?<=be/)[^&#]+', m.trailer_youtube_url)
-            trailer_youtube_id = (youtube_id_match.group(0) if youtube_id_match else None)
+            youtube_id_match = re.search(
+                r'(?<=v=)[^&#]+', m.trailer_youtube_url)
+            youtube_id_match = youtube_id_match or re.search(
+                r'(?<=be/)[^&#]+', m.trailer_youtube_url)
+            trailer_youtube_id = (youtube_id_match.group(0)
+                                  if youtube_id_match else None)
 
             # Append the tile for the movie with its content filled in
             content += media_tile_content.format(
@@ -310,6 +311,9 @@ def open_movies_page(nowplaying, upcoming, classics, moderns):
     webbrowser.open('file://' + url, new=2)
 
 
-
-open_movies_page(media_center.now_playing, media_center.coming_soon, media_center.classics, media_center.modern_classics)
-
+open_movies_page(
+    media_center.now_playing,
+    media_center.coming_soon,
+    media_center.classics,
+    media_center.modern_classics
+    )
