@@ -11,15 +11,15 @@ API requests are limited to 30 within 10 seconds, so the first time the programm
 --------------
 The only requirement is to have **Python 2.7** installed. If you don't have python installed, download the most recent release for 2.7 version on https://www.python.org/downloads/. When you are ready, follow the instructions:
 <br />
-1. Open terminal
-2. Move to the choosen directory. Example:  ```$ cd Desktop```
+1. Open terminal<br />
+2. Move to the choosen directory. Example:  ```$ cd Desktop```<br />
 3. Clone the project repository <br />
-```$ git clone https://github.com/gvzqez/theMTWS```
+```$ git clone https://github.com/gvzqez/theMTWS```<br />
 4. Move to the project root directory <br />
- ```$ cd theMTWS```
+ ```$ cd theMTWS```<br />
 5. Set the "locale" environtment variables to **('en_US', 'UTF-8')**: <br />
 ```$ export LC_ALL=en_US.UTF-8``` <br />
- ```$ export LANG=en_US.UTF-8```
+ ```$ export LANG=en_US.UTF-8```<br />
 6. Execute the main python script <br />
  ```$ python main.py```
 
