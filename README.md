@@ -20,5 +20,6 @@ The only requirement is to have **Python 2.7** installed. If you don't have pyth
 5. Set the "locale" environtment variables to **('en_US', 'UTF-8')**:
 > *  ```$ export LC_ALL=en_US.UTF-8```
 > *  ```$ export LANG=en_US.UTF-8```
-6. Execute the main python script ```$ python main.py```
+6. Execute the main python script
+> * ```$ python main.py```
 
