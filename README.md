@@ -14,14 +14,14 @@ The only requirement is to have **Python 2.7** installed. If you don't have pyth
 <br />
 1. Open terminal
 2. Move to the choosen directory. Example:  ```$ cd Desktop```
-3. Clone the project repository
+3. Clone the project repository <br />
 ```$ git clone https://github.com/gvzqez/theMTWS```
-4. Move to the project root directory
+4. Move to the project root directory <br />
  ```$ cd theMTWS```
-5. Set the "locale" environtment variables to **('en_US', 'UTF-8')**:
-```$ export LC_ALL=en_US.UTF-8```
+5. Set the "locale" environtment variables to **('en_US', 'UTF-8')**: <br />
+```$ export LC_ALL=en_US.UTF-8``` <br />
  ```$ export LANG=en_US.UTF-8```
-6. Execute the main python script
+6. Execute the main python script <br />
  ```$ python main.py```
 
 
